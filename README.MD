@@ -1,8 +1,8 @@
-#FlowerShop
+# FlowerShop
 
 A programming exercise using dynamic programming.
 
-##Context:
+## Context:
 
 A flower shop used to base the price of their flowers on an item by item cost. So if a
 customer ordered 10 roses then they would be charged 10x the cost of single rose. The
@@ -21,16 +21,16 @@ ordered 15 they would get a bundle of 10 and a bundle of 5.
 | | | 5 @ $9.95 |
 | | | 9 @ $16.99 |
 
-##Task:
+## Task:
 
 Given a customer order you are required to determine the cost and bundle breakdown for each product. 
 To save on shipping space each order should contain the minimal number of bundles.
 
-##Input:
+## Input:
 
 Each order has a series of lines with each line containing the number of items followed by the product code
 
-##An example input:
+## An example input:
 
 ```
 10 R12
@@ -38,7 +38,7 @@ Each order has a series of lines with each line containing the number of items f
 13 T58
 ```
 
-##Output:
+## Output:
 
 A successfully passing test(s) that demonstrates the following output: (The format of the output is not important)
 
